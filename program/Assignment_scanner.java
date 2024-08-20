@@ -21,8 +21,8 @@ public class Assignment_scanner {
 		 * 
 		 * double area=pi*r*r;
 		 * 
-		 * System.out.println("Area of circle"+area);
-		 */
+		 * System.out.println("Area of circle"+area);*/
+		 
 
 		// circumference of circle
 

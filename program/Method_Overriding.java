@@ -16,7 +16,7 @@ class override extends Module{
 	
 	 void login()
 	{
-		 super .login();
+		// super .login();
 		System.out.println("login with mobile");
 	}
 }
@@ -26,7 +26,7 @@ public class Method_Overriding  extends override{
 	
 	void login()
 	{
-		super .login();
+		//super .login();
 		System.out.println("login with Email");
 		
 		

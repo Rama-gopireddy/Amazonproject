@@ -6,7 +6,7 @@ public class String_Day21 {
 		
 		String name="My name is Rama";
 		System.out.println(	name.length());
-		System.out.println(name.toUpperCase());
+		/*System.out.println(name.toUpperCase());
 	String batch_name="Ab43bymkt";
 	System.out.println(	batch_name.toLowerCase());
 	System.out.println(	batch_name.charAt(6));
@@ -29,7 +29,7 @@ public class String_Day21 {
 	
 	System.out.println(name.contains("rama"));
 	System.out.println(name.substring(2));
-	System.out.println(name.substring(0, 6));
+	System.out.println(name.substring(0, 6));*/
 		
 		
 		

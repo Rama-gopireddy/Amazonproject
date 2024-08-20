@@ -2,21 +2,21 @@ package program;
 
 public class Nonstatic {
 	
-	void add()
+	void add(int a)
 	
 	{
 		System.out.println("Amazon");
 		
 	}
 	
-	 void sub()
+	 void sub(double b)
 	
 	{
 		System.out.println("Ring");
 		
 	}
 	 
-	 void method()
+	 void method(int c)
 		
 	{
 		System.out.println("Shipping");
@@ -27,9 +27,9 @@ public class Nonstatic {
 
 	public static void main(String[] args) {
 		Nonstatic L1=new Nonstatic ();
-		L1.add();
-		L1.sub();
-		L1.method();
+		L1.add(100);
+		L1.sub(190.00);
+		L1.method(80);
 
 		
 		
