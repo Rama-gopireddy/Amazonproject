@@ -20,6 +20,8 @@ ChromeDriver d=new ChromeDriver();
 	
 	a1.contextClick( e1).perform();
 		
+	//d.quit();
+	
 		
 
 	}

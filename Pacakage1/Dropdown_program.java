@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Dropdown_program {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 	ChromeDriver driver=new ChromeDriver();
 		
@@ -19,10 +19,11 @@ public class Dropdown_program {
 WebElement e1=driver.findElement(By.id("searchDropdownBox"));
 
 Select s1=new Select(e1);
-
+Thread.sleep(4000);
 s1.selectByVisibleText("Books");
-
+Thread.sleep(4000);
 //s1.selectByIndex(1);
+Thread.sleep(4000);
 s1.selectByValue("search-alias=furniture");
 
 WebElement e2=driver.findElement(By.id("twotabsearchtextbox"));

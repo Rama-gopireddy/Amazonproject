@@ -20,14 +20,14 @@ ChromeDriver cd=new ChromeDriver();
 		
 		cd.manage().window().maximize();
 		
-	/*	WebElement e1=cd.findElement(By.id("container-6"));
+		WebElement e1=cd.findElement(By.id("container-6"));
 		WebElement e2=cd.findElement(By.id("div2"));
 		
 		Actions a1= new Actions(cd);
+		Thread.sleep(5000);
 		
-		a1.dragAndDrop( e1, e2).perform();*/
-		
-		//1)drag and drop jason
+		a1.dragAndDrop( e1, e2).perform();
+//1)drag and drop jason
 		
 		
 		/*WebElement e3=cd.findElement(By.id("drag11"));
@@ -85,6 +85,10 @@ ChromeDriver cd=new ChromeDriver();
 		
 		a6.dragAndDrop( e11, e12).perform();
 
+		
+		cd.quit();
+		
+		
 	}
 
 }

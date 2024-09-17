@@ -21,6 +21,8 @@ public class Amazon_refrigirator_suggestion {
 	
 List<WebElement>l1=	driver.findElements(By.xpath("//div[@class='icon-suggestion-div search-icon-div']/div/div"));
 	
+
+//*[@id="nav-flyout-searchAjax"]/div[2]/div/div[1]/div[1]/div/div[1]
 	int count=l1.size();
 	
 	System.out.println(count);
